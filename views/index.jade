@@ -1,0 +1,9 @@
+extends layout
+
+block content
+   .container
+       .jumbotron
+           div.list-group
+               each article, index in articles
+                   h3.center-block
+                     a(href="/articles/#{article.slug}")= article.title
