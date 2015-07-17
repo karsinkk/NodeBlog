@@ -14,7 +14,7 @@ if(process.env.OPENSHIFT_MONGODB_DB_URL){
   mongodb_connection_string = process.env.OPENSHIFT_MONGODB_DB_URL + db_name;
 }
 else{
-  var mongodb_connection_string = "mongodb://localhost:27017/"+db_name;
+  var mongodb_connection_string = "mongodb://karsinkk:Karsin_28@ds047732.mongolab.com:47732/mongo";
 }
 
 
